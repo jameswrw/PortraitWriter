@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		36693ABB2044D72000A12B58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693ABA2044D72000A12B58 /* AppDelegate.swift */; };
-		36693ABD2044D72000A12B58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693ABC2044D72000A12B58 /* ViewController.swift */; };
 		36693ABF2044D72000A12B58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36693ABE2044D72000A12B58 /* Assets.xcassets */; };
 		36693AC22044D72000A12B58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36693AC02044D72000A12B58 /* Main.storyboard */; };
 		36693ACE2044D72000A12B58 /* PortraitWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693ACD2044D72000A12B58 /* PortraitWriterTests.swift */; };
 		36693AD92044D72100A12B58 /* PortraitWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AD82044D72100A12B58 /* PortraitWriterUITests.swift */; };
+		36693AE720453FCB00A12B58 /* TypewriterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AE620453FCB00A12B58 /* TypewriterViewController.swift */; };
+		36693AE92045408200A12B58 /* Typewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AE82045408200A12B58 /* Typewriter.swift */; };
+		36693AEB204540B500A12B58 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AEA204540B500A12B58 /* Parser.swift */; };
+		367513E12045DC6C00467DD2 /* Charles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E02045DC6C00467DD2 /* Charles.txt */; };
+		367513E320477BBD00467DD2 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367513E220477BBD00467DD2 /* TypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +39,6 @@
 /* Begin PBXFileReference section */
 		36693AB72044D72000A12B58 /* PortraitWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortraitWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36693ABA2044D72000A12B58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36693ABC2044D72000A12B58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36693ABE2044D72000A12B58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36693AC12044D72000A12B58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36693AC32044D72000A12B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +49,11 @@
 		36693AD42044D72000A12B58 /* PortraitWriterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortraitWriterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36693AD82044D72100A12B58 /* PortraitWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitWriterUITests.swift; sourceTree = "<group>"; };
 		36693ADA2044D72100A12B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36693AE620453FCB00A12B58 /* TypewriterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterViewController.swift; sourceTree = "<group>"; };
+		36693AE82045408200A12B58 /* Typewriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typewriter.swift; sourceTree = "<group>"; };
+		36693AEA204540B500A12B58 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		367513E02045DC6C00467DD2 /* Charles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Charles.txt; path = PortraitWriter/Charles.txt; sourceTree = SOURCE_ROOT; };
+		367513E220477BBD00467DD2 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				36693AB92044D72000A12B58 /* PortraitWriter */,
+				367513DF2045DC4000467DD2 /* Resources */,
 				36693ACC2044D72000A12B58 /* PortraitWriterTests */,
 				36693AD72044D72000A12B58 /* PortraitWriterUITests */,
 				36693AB82044D72000A12B58 /* Products */,
@@ -97,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				36693ABA2044D72000A12B58 /* AppDelegate.swift */,
-				36693ABC2044D72000A12B58 /* ViewController.swift */,
+				36693AE620453FCB00A12B58 /* TypewriterViewController.swift */,
+				367513E220477BBD00467DD2 /* TypeView.swift */,
+				36693AE82045408200A12B58 /* Typewriter.swift */,
+				36693AEA204540B500A12B58 /* Parser.swift */,
 				36693ABE2044D72000A12B58 /* Assets.xcassets */,
 				36693AC02044D72000A12B58 /* Main.storyboard */,
 				36693AC32044D72000A12B58 /* Info.plist */,
@@ -122,6 +134,14 @@
 				36693ADA2044D72100A12B58 /* Info.plist */,
 			);
 			path = PortraitWriterUITests;
+			sourceTree = "<group>";
+		};
+		367513DF2045DC4000467DD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				367513E02045DC6C00467DD2 /* Charles.txt */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,7 @@
 			files = (
 				36693ABF2044D72000A12B58 /* Assets.xcassets in Resources */,
 				36693AC22044D72000A12B58 /* Main.storyboard in Resources */,
+				367513E12045DC6C00467DD2 /* Charles.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36693ABD2044D72000A12B58 /* ViewController.swift in Sources */,
+				367513E320477BBD00467DD2 /* TypeView.swift in Sources */,
 				36693ABB2044D72000A12B58 /* AppDelegate.swift in Sources */,
+				36693AEB204540B500A12B58 /* Parser.swift in Sources */,
+				36693AE720453FCB00A12B58 /* TypewriterViewController.swift in Sources */,
+				36693AE92045408200A12B58 /* Typewriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
