@@ -24,7 +24,8 @@ class Parser {
     var previousLineNumber = 1
     
     init() {
-        path = Bundle.main.url(forResource: "Charles", withExtension: "txt")!
+//        path = Bundle.main.url(forResource: "Charles", withExtension: "txt")!
+        path = Bundle.main.url(forResource: "Mystery", withExtension: "txt")!
     }
     
     func parse() -> ParserOutput {

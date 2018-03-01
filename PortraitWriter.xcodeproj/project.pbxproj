@@ -17,6 +17,8 @@
 		36693AEB204540B500A12B58 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AEA204540B500A12B58 /* Parser.swift */; };
 		367513E12045DC6C00467DD2 /* Charles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E02045DC6C00467DD2 /* Charles.txt */; };
 		367513E320477BBD00467DD2 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367513E220477BBD00467DD2 /* TypeView.swift */; };
+		367513E52047964A00467DD2 /* Mystery.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E42047964A00467DD2 /* Mystery.txt */; };
+		367513E72048C77A00467DD2 /* Rose.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E62048C77900467DD2 /* Rose.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		36693AEA204540B500A12B58 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		367513E02045DC6C00467DD2 /* Charles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Charles.txt; path = PortraitWriter/Charles.txt; sourceTree = SOURCE_ROOT; };
 		367513E220477BBD00467DD2 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		367513E42047964A00467DD2 /* Mystery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Mystery.txt; path = PortraitWriter/Mystery.txt; sourceTree = SOURCE_ROOT; };
+		367513E62048C77900467DD2 /* Rose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Rose.txt; path = PortraitWriter/Rose.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				367513E02045DC6C00467DD2 /* Charles.txt */,
+				367513E42047964A00467DD2 /* Mystery.txt */,
+				367513E62048C77900467DD2 /* Rose.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -251,8 +257,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				367513E72048C77A00467DD2 /* Rose.txt in Resources */,
 				36693ABF2044D72000A12B58 /* Assets.xcassets in Resources */,
 				36693AC22044D72000A12B58 /* Main.storyboard in Resources */,
+				367513E52047964A00467DD2 /* Mystery.txt in Resources */,
 				367513E12045DC6C00467DD2 /* Charles.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
