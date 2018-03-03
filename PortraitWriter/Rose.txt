@@ -10,13 +10,181 @@ RED
 (5) 15sp 1: 1@ 1S 2sp 4@ 1sp 1@ 2sp 12@ 1: 11@ 1.
 (5a) 30sp 1' 3sp 4S 3sp 3S 1sp 7S
 (5b) 41sp 3M 3sp 2M 1B 1M
+(6) 15sp 1: 1@ 1S 3sp 1S 3@ 2sp 1. 24@ 1A 1.
+(6a) 33sp 5S 2sp 11S
+(6b) 40sp 6M 1sp 4M
+(7) 15sp 1A 2@ 5sp 1S 2sp 1. 26@ 1:
+(7a) 31sp 7S 2sp 13S
+(7b) 40sp 6M 1sp 3M
+(8) 15sp 3@ 1S 7sp 1A 25@ 1" 1:
+(8a) 29sp 9S 2sp 11S
+(8b) 40sp 11M
+(9) 14sp 1. 3@ 1S 4sp 1. 2sp 25@ 1S 1sp 1L
+(9a) 29sp 9S 1: 1sp 10S
+(9b) 41sp 7M
+(10) 14sp 1. 2@ 2S 1' 3. 3sp 12@ 1A 13@ 1sp 1: 1@ 1:
+(10a) 29sp 9S 1" 1sp 11S 2sp 1' 1S
+(10b) 40sp 9M 2C 3sp 1M
+(11) 14sp 1. 3@ 1: 4@ 1. 2sp 29@ 1:
+(11a) 21sp 2S 7sp 7S 2sp 8S 4" 2sp 2S
+(11b) 22sp 1M 17sp 7M 4' 2sp 2M
+(12) 14sp 1A 9@ 1: 1sp 1Y 11@ 1S 5@ 2" 1: 2S 6@ 1'
+(12a) 16sp 1: 5sp 2S 7sp 4S 4sp 5S 1' 7sp 1' 1" 1S
+(12b) 39sp 5M 9sp 1' 1M
+(13) 14sp 1S 10@ 1. 1' 14@ 2" 1: 10@ 1'
+(13a) 22sp 3S 6sp 3S 4sp 3S 1' 1. 11sp 1.
+(13b) 40sp 1M 1.
 
+(14) 14sp 1S 11@ 1sp 4@ 1A 1" 7@ 1" 12@ 1S 2. 1sp 1:
+(14a) 21sp 4S 1: 5sp 1" 1' 6sp 1S 1' 1: 4sp 5S
+(14b) 39sp 1M 1.
+(15) 13sp 1A 1S 11@ 1sp 1' 1@ 1T 1" 3sp 1" 1T 20@ 1S 1L 1: 1sp 3. 2:
+(15a) 20sp 6S 3sp 1" 4sp 1' 1" 3sp 1T 12S 5sp 1:
+(16) 12sp 1A 1S 13@ 1. 1" 3sp 1. 3@ 2sp 1" 1sp 16@ 1S 1@ 1T 5@ 1:
+(16a) 20sp 6S 1L 1sp 1' 5sp 6S 1sp 9S 7sp 1S 1" 1S 1. 2sp 1.
+(16b) 57sp 1M 1sp 1M
+(17) 11sp 1A 2S 13@ 1. 2sp 1. 1: 9@ 2S 15@ 1. 2@ 1: 1S 1@ 1:
+(17a) 19sp 8S 6sp 4S 1L 5sp 6s 10sp 2S 2sp 1S
+(17b) 59sp 1C 1M 2sp 1M
+(18) 9sp 1. 1: 1" 1: 1" 13@ 1: 1sp 1: 12@ 2" 4@ 1S 13@ 1S 1@ 1:
+(18a) 20sp 5S 1" 7sp 1: 5S 2sp 1. 1' 5sp 1" 1sp 4S 3sp 5S 1sp 1S
+(18b) 11sp 1' 22sp 3M 22sp 1C 2M 1sp 1M
+(19) 8sp 1: 3@ 1S 1sp 1S 12@ 1. 10@ 3" 4sp 1S 3@ 1S 14@
+(19a) 9sp 1I 1S 9sp 4S 10sp 4S 2. 1' 10sp 13S
+(19b) 9sp 1: 1M 23sp 4M 20sp 1M 2sp 3M
+(20) 7sp 1: 4@ 1' 12@ 1" 1: 16@ 1: 2sp 4@ 1S 13@
+(20a) 8sp 2S 5sp 2S 3sp 3S 2sp 1' 8sp 1' 3S 1" 1S 1" 2S 3sp 2S 3sp 13S
+(20b) 8sp 2M 25sp 3M 1. 2sp 2M 14sp 7M
+(20c) 8sp 2: 51sp 2:
+(21) 7sp 2@ 4S 11@ 1" 12@ 1" 1@ 1: 1" 4@ 1. 5@ 1S 12@
+(21a) 7sp 1' 1" 6sp 4S 5sp 1. 1: 1sp 3. 5sp 2S 1' 1S 1sp 1' 4S 1sp 2S 4sp 12S
+(21b) 25sp 2M 1. 1M 2sp 4M 16sp 2M 1:
+(22) 8sp 1@ 4S 10@ 1" 9@ 1" 1' 1" 2@ 1: 1. 6@ 1S 4@ 2S 11@
+(22a) 14sp 7S 2sp 1' 1: 2sp 4S 1sp 1' 1sp 1. 1: 1S 2sp 6S 1sp 1S 1: 6sp 8S
+(22b) 40sp 6M 12sp 5M
+(23) 7sp 1A 5S 10@ 1: 2S 6@ 1" 1sp 1. 2@ 1T 9@ 1S 1@ 3S 1: 10@ 1'
+(23a) 14sp 8S 4sp 4S 5sp 1S 1sp 1: 9S 6sp 10S
+(23b) 35sp 1L 2sp 9M 6sp 10M
+(24) 6sp 1. 7S 8@ 1sp 1@ 1. 6@ 2sp 1. 2@ 1: 15@ 1sp 10@
+(24a) 14sp 8S 3sp 6S 3sp 1J 2sp 11S 5sp 10S
+(24b) 37sp 11M 5sp 10M
+(25) 6sp 6S 1: 1S 9@ 1. 5@ 1S 1sp 5@ 1S 6@ 1S 6@ 2S 1@ 1S 10@
+(25a) 14sp 9S 1sp 2S 1sp 1S 6sp 2S 1sp 6S 1" 6S 1sp 1" 2sp 9S 1:
+(25b) 17sp 2M 15sp 1M 1A 1sp 6M 1sp 6M 4sp 9M
+(26) 5sp 1A 1" 6S 11@ 1" 3@ 1" 1sp 1. 1@ 1sp 1: 9@ 1: 7@ 1S 1@ 1sp 9@ 1'
+(26a) 14sp 9S 11sp 9S 1sp 6S 2sp 1S 1sp 9S
+(26b) 15sp 5M 14sp 9M 1sp 6M 4sp 9M
+(27) 5sp 1" 2' 1" 2S 13@ 1sp 1S 1@ 1" 2sp 2S 1: 11@ 1: 8@ 1: 9@
+(27a) 14sp 10S 2sp 1S 6sp 11S 1sp 8S 1sp 9S
+(27b) 15sp 7M 11sp 11M 1sp 4M 5sp 9M
 
+(28) 5sp 1' 1sp 3S 4@ 11S 1: 1@ 3sp 1S 1: 12@ 1sp 1S 7@ 1. 9@
+(28a) 14sp 11@ 7sp 12S 2sp 6S 3sp 7S 1:
+(28b) 15sp 7M 10sp 12M 2sp 3M 6sp 7M
+(29) 6sp 4S 15@ 1sp 1@ 1. 1sp 2S 1: 9@ 1S 2@ 1A 1@ 1S 7@ 1. 7@
+(29a) 14sp 11S 7sp 12S 1: 1sp 1" 6S 2sp 7S
+(29b) 14sp 9M 9sp 3M 2sp 4M 1sp 2M 3sp 5M 5sp 5M
+(30) 6sp 1V 2S 16@ 1sp 1V 1: 1. 2S 1. 9@ 1: 3@ 1: 2S 5@ 1S 1sp 6@ 1L
+(30a) 14sp 11S 7sp 9S 1sp 3S 2sp 1" 5S 2sp 6S 1V
+(30b) 16sp 6M 10sp 2M 3sp 4M 7sp 4M 5sp 4M 1.
+(31) 6sp 1' 2S 15@ 1S 1sp 1' 3S 1sp 1: 9@ 1S 3@ 1. 1S 1. 5@ 1S 1sp 6@ 1'
+(31a) 8sp 1. 8sp 4M 11sp 2M 3sp 4M 3sp 1M 3sp 4M 5sp 4M
+(32) 7sp 2S 15@ 1: 2sp 3@ 1sp 1: 10@ 1S 2@ 1' 1@ 1' 3@ 4S 6@
+(32a) 16sp 7S 6sp 1S 3sp 10S 1sp 2S 1sp 1S 1sp 3S 1' 3sp 6S
+(32b) 18sp 3M 11sp 2M 4sp 3M 2sp 2M 3sp 3M 1" 3sp 1. 2sp 3M
+(33) 7sp 1" 1S 15@ 3sp 1V 2@ 1sp 8@ 2" 1: 2@ 1" 1sp 4@ 4S 7@
+(33a) 7sp 1' 9sp 7S 3sp 1: 2S 2sp 7S 1' 1. 2sp 1S 2sp 2S 1sp 1S 4sp 7S
+(33b) 33sp 3M 1A 2M 10sp 1M 8sp 3M
+(34) 8sp 1S 13@ 1S 1@ 3sp 1" 6@ 1V 2@ 2: 2@ 1S 1@ 1sp 1: 4@ 4sp 8@
+(34a) 18sp 4S 1sp 1S 4sp 2S 3sp 1S 1. 2S 2sp 2S 1sp 1S 2sp 16S
+(34b) 33sp 1M 8sp 1M 2sp 1M 12sp 3M
+(35) 8sp 1' 12@ 1" 1S 1@ 4sp 2@ 1sp 3@ 1. 1V 2@ 1. 1@ 1" 2@ 1L 1. 1: 5@ 2S 8@
+(35a) 19sp 2S 2sp 1S 4sp 2S 5sp 1" 2S 1sp 1S 1' 2S 1: 2sp 5S 2sp 7S 1:
+(35b) 43sp 1" 2sp 1M 10sp 3M
+(36) 9sp 1" 10@ 1" 1S 2@ 1: 3sp 1: 1@ 1: 3@ 1. 1sp 1@ 1" 3S 2" 1sp 1A 1sp 6@ 1S 2@ 1" 1S 3@ 1V
+(36a) 15sp 2S 2sp 1S 1' 2sp 1S 5sp 1S 1sp 1S 4sp 1S 1. 3sp 1' 1. 1sp 1: 1sp 6S 1sp 2S 1' 1sp 3S 1'
+(36b) 46sp 2M 10sp 2M
+(37) 10sp 1' 9@ 1. 2S 2@ 3sp 1' 6@ 2S 6@ 1sp 1@ 1sp 5@ 2S 2sp 2S 3@
+(37a) 15sp 3S 5sp 2S 4sp 4S 4sp 6S 1. 1S 1sp 5S 1sp 1: 4sp 3S
+(37b) 46sp 1M 9sp 1. 3M
+(38) 10sp 1. 1S 8@ 3S 2@ 1. 2sp 1. 13@ 1" 2@ 1S 6@ 1S 2. 1S 4@
+(38a) 16sp 1S 7sp 1S 4sp 13S 1. 2S 1sp 6S 4sp 4S
+(38b) 46sp 1M 11sp 2'
+(39) 10sp 3S 6@ 1: 3S 1@ 1. 1S 1. 1sp 1. 8@ 3T 1. 1: 3@ 1: 6@ 1. 1: 1. 1L 3@ 1V
+(39a) 13sp 1. 5sp 1' 4sp 1' 4sp 8S 4" 1sp 3S 1sp 6S 3sp 1: 3S 1:
+(39b) 42sp 1: 3sp 4M
+(40) 9sp 1A 5S 4@ 1sp 3S 1@ 1sp 1S 8@ 1" 2sp 1A 7@ 1: 6@ 1. 2sp 4@
+(40a) 14sp 1' 2. 9sp 1' 3sp 4S 1' 2sp 1: 6S 2sp 6S 3sp 4S
+(40b) 46sp 6M 6sp 1M
 
+(41) 8sp 1. 1S 3@ 1S 1. 3S 1@ 1sp 2S 2@ 4S 2@ 1S 2@ 2sp 1. 1A 8@ 1S 6@ 1S 1. 1: 4@
+(41a) 16sp 2' 1: 5sp 1. 3sp 2S 1sp 2S 4sp 8S 1: 5S 1: 3sp 4S
+(41b) 40sp 2M 4sp 5M 5sp 2M
+(42) 7sp 1. 2S 2@ 1S 1. 1S 2@ 2S 1: 1S 4@ 1' 3S 2@ 1S 19@ 2. 6@
+(42a) 24sp 1S 3sp 1" 2S 1sp 19S 2sp 6S
+(42b) 28sp 1' 3sp 8M 1' 4sp 6M 6sp 2M
+(43) 7sp 1A 1@ 1S 2@ 1S 1. 3@ 2S 1L 1J 4@ 1: 4S 1@ 1S 18@ 1" 1. 6@ 1L
+(43a) 8sp 1S 7sp 1S 2sp 1: 1" 8sp 1' 1S 1sp 18S 1' 1sp 6S 1V
+(43b) 30sp 1M 1sp 10M 3sp 5M 6sp 2M 1:
+(44) 7sp 1' 2@ 2" 1. 7@ 1sp 5@ 1. 2: 2. 1@ 1: 16@ 1" 1. 1J 6@ 1'
+(44a) 8sp 2S 2' 19sp 1S 1sp 16S 1. 1sp 1: 6S
+(44b) 31sp 1M 1sp 9M 2sp 5M 5sp 4M
+(45) 8sp 1" 1sp 1L 1. 2S 6@ 1sp 1S 5@ 1' 3. 1@ 1: 14@ 1" 2. 1J 7@
+(45a) 10sp 1. 6sp 3S 6sp 1S 4sp 1S 1sp 14S 1' 2sp 1: 7S
+(45b) 31sp 1M 1sp 10M 1sp 3M 8sp 3M
+(46) 12sp 1V 2S 5@ 1L 1' 6@ 1' 2. 1' 11@ 1" 2@ 3. 9@
+(46a) 12sp 1: 3sp 4S 1: 1. 3sp 3S 3sp 1. 11S 1' 1V 1" 3sp 9S
+(46b) 32sp 11M 1sp 1: 1' 9sp 3M
+(47) 13sp 1V 1S 6@ 1sp 1S 5@ 1L 1sp 2. 11@ 2: 12@ 1L
+(47a) 18sp 3S 5sp 2S 1: 3sp 1" 10S 2sp 12S 1V
+(47b) 32sp 1' 6M 1A 2M 1V 11sp 3M 1:
+(48) 15sp 1" 1' 2S 2@ 1L 1. 2S 1@ 1S 3@ 1. 1sp 1' 1@ 2" 2@ 2" 4sp 2. 1"
+(48a) 19sp 2S 1. 5sp 3S 3sp 1S 1. 1' 2S 1' 6sp 1. 11S
+(48b) 27sp 3M 3sp 1M 2sp 2M 8sp 4V 4sp 3M
+(49) 18sp 1" 1S 2@ 2A 2S 4@ 1. 1sp 2" 1@ 1sp 2" 2sp 3. 1' 12@ 1V
+(49a) 18sp 1' 1sp 2S 4sp 4S 2sp 1' 1sp 1S 1sp 2' 6sp 12S 1'
+(49b) 20sp 2M 5sp 3M 15sp 2M 1V 5sp 3M
+(50) 20sp 2@ 1: 3S 7@ 1: 1. 1' 3sp 2. 1: 4@ 3A 6@
+(50a) 20sp 2S 4sp 7S 11sp 3S 1sp 2" 6S
+(50b) 20sp 2M 4sp 3M 3sp 1M 11sp 3M 6sp 3M
+(51) 20sp 3@ 2" 11@ 1: 1. 2sp 1. 1: 5@ 1A 1' 2sp 1. 1: 1S 1@ 1"
+(51a) 20sp 3S 2sp 11S 7sp 4S 7sp 1S 1'
+(51b) 20sp 3M 2sp 11M 8sp 1V 2M 7sp 1M
+(52) 20sp 4@ 1" 2@ 1" 11@ 1. 7@ 1L 1. 2sp 1. 2S 1V
+(52a) 20sp 4S 1' 2S 1. 11S 2sp 1. 5S 1: 6sp 1'
+(52b) 20sp 4M 1sp 2M 1sp 8M 8sp 3M
+(53) 20sp 1V 3@ 1sp 1V 2S 20@ 2. 2sp 1S 1"
+(53a) 20sp 1: 3S 1sp 1' 1sp 1: 19S 1:
+(53b) 21sp 3M 4sp 8M 8sp 3M
 
-
-
-
+(54) 20sp 1' 3" 2sp 22@ 1S 3. 1"
+(54a) 21sp 2' 3sp 1. 9S 1sp 11S 4sp 1'
+(54b) 27sp 9M 8sp 4M
+(55) 26sp 1S 22@ 1S 1"
+(55a) 28sp 9S 1: 10S
+(55b) 28sp 9M 7sp 4M
+(56) 26sp 1" 1S 20@ 1'
+(56a) 28sp 9S 1L 9S 1"
+(56b) 28sp 9M 1. 3sp 6M 1'
+(57) 28sp 1" 15@ 3"
+(57a) 28sp 1' 6S 1" 8S 2'
+(57b) 30sp 4M 1sp 1' 2:
+(58) 29sp 1" 5@ 1" 7@ 1"
+(58a) 30sp 4S 1: 1sp 7S
+(58b) 32sp 2M 2sp 7M
+(59) 32sp 2" 2sp 1V 6@
+(59a) 36sp 1: 6S
+(59b) 38sp 4M
+(60) 37sp 1" 5@
+(60a) 37sp 1' 5S
+(60b) 39sp 2M 1'
+(61) 38sp 1" 3@ 1"
+(61a) 39sp 3S
+(61b) 40sp 1M
+(62) 39sp 1" 1@ 1V
+(62a) 40sp 1S 1'
+(63) 40sp 1@ 1'
+(63a) 40sp 1S
 
 
 BLACK

@@ -14,27 +14,31 @@ class TypewriterViewController: NSViewController {
 
     @IBOutlet var typeView: TypeView!
     
-    let typewriter = Typewriter()
+    let parser = Parser()
+    var colour = NSColor.black
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         
         // Do view setup here.
-        var ctLines = [[CTLine]]()
-        let output = typewriter.parser.parse()
-        let font = NSFont.init(name: "Courier New", size: 8.0)
+        let lines = parser.parse()
+        let font = NSFont.init(name: "Courier New", size: 18.0)
         
-        for line in output.lines {
-            var ctLine = [CTLine]()
-            for run in line {
-                let string = NSAttributedString.init(string: run + "\n", attributes:[.font : font!])
-                ctLine.append(CTLineCreateWithAttributedString(string))
+        for line in lines {
+            
+            if line.text == "RED" {
+                colour = .red
+            } else if line.text == "BLACK" {
+                colour = .black
+            } else {
+                let string = NSAttributedString.init(string: line.text + "\n", attributes:[.font : font!, .foregroundColor: colour])
+                line.formattedLine = CTLineCreateWithAttributedString(string)
             }
-            ctLines.append(ctLine)
+            
         }
         
-        typeView.text = ctLines
+        typeView.lines = lines
         typeView.setNeedsDisplay(typeView.bounds)
     }
     

@@ -13,12 +13,12 @@
 		36693ACE2044D72000A12B58 /* PortraitWriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693ACD2044D72000A12B58 /* PortraitWriterTests.swift */; };
 		36693AD92044D72100A12B58 /* PortraitWriterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AD82044D72100A12B58 /* PortraitWriterUITests.swift */; };
 		36693AE720453FCB00A12B58 /* TypewriterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AE620453FCB00A12B58 /* TypewriterViewController.swift */; };
-		36693AE92045408200A12B58 /* Typewriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AE82045408200A12B58 /* Typewriter.swift */; };
 		36693AEB204540B500A12B58 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36693AEA204540B500A12B58 /* Parser.swift */; };
 		367513E12045DC6C00467DD2 /* Charles.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E02045DC6C00467DD2 /* Charles.txt */; };
 		367513E320477BBD00467DD2 /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367513E220477BBD00467DD2 /* TypeView.swift */; };
 		367513E52047964A00467DD2 /* Mystery.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E42047964A00467DD2 /* Mystery.txt */; };
 		367513E72048C77A00467DD2 /* Rose.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E62048C77900467DD2 /* Rose.txt */; };
+		367513E9204AFB9B00467DD2 /* TypewriterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367513E8204AFB9B00467DD2 /* TypewriterLine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +52,12 @@
 		36693AD82044D72100A12B58 /* PortraitWriterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitWriterUITests.swift; sourceTree = "<group>"; };
 		36693ADA2044D72100A12B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36693AE620453FCB00A12B58 /* TypewriterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterViewController.swift; sourceTree = "<group>"; };
-		36693AE82045408200A12B58 /* Typewriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typewriter.swift; sourceTree = "<group>"; };
 		36693AEA204540B500A12B58 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		367513E02045DC6C00467DD2 /* Charles.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Charles.txt; path = PortraitWriter/Charles.txt; sourceTree = SOURCE_ROOT; };
 		367513E220477BBD00467DD2 /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
 		367513E42047964A00467DD2 /* Mystery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Mystery.txt; path = PortraitWriter/Mystery.txt; sourceTree = SOURCE_ROOT; };
 		367513E62048C77900467DD2 /* Rose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Rose.txt; path = PortraitWriter/Rose.txt; sourceTree = SOURCE_ROOT; };
+		367513E8204AFB9B00467DD2 /* TypewriterLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterLine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,8 @@
 				36693ABA2044D72000A12B58 /* AppDelegate.swift */,
 				36693AE620453FCB00A12B58 /* TypewriterViewController.swift */,
 				367513E220477BBD00467DD2 /* TypeView.swift */,
-				36693AE82045408200A12B58 /* Typewriter.swift */,
 				36693AEA204540B500A12B58 /* Parser.swift */,
+				367513E8204AFB9B00467DD2 /* TypewriterLine.swift */,
 				36693ABE2044D72000A12B58 /* Assets.xcassets */,
 				36693AC02044D72000A12B58 /* Main.storyboard */,
 				36693AC32044D72000A12B58 /* Info.plist */,
@@ -288,9 +288,9 @@
 			files = (
 				367513E320477BBD00467DD2 /* TypeView.swift in Sources */,
 				36693ABB2044D72000A12B58 /* AppDelegate.swift in Sources */,
+				367513E9204AFB9B00467DD2 /* TypewriterLine.swift in Sources */,
 				36693AEB204540B500A12B58 /* Parser.swift in Sources */,
 				36693AE720453FCB00A12B58 /* TypewriterViewController.swift in Sources */,
-				36693AE92045408200A12B58 /* Typewriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

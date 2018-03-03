@@ -10,7 +10,7 @@ import Cocoa
 
 class TypeView: NSView {
 
-    var text: [[CTLine]]? = nil
+    var lines: [TypewriterLine]? = nil
     
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
@@ -21,18 +21,18 @@ class TypeView: NSView {
             let xMargin: CGFloat = 72.0
             let yMargin: CGFloat = bounds.size.height - 72.0
             
-            if let text = text {
+            if let lines = lines {
                 
-                for i in 0..<text.count {
-                    for line in text[i] {
-                        
+                for line in lines {
+                    
+                    if line.lineNumber != nil {
                         // Calculate line separation such that rows/cm == columns/cm.
-                        let glyphCount = CTLineGetGlyphCount(line)
-                        let lineRect = CTLineGetBoundsWithOptions(line, .excludeTypographicLeading)
+                        let glyphCount = CTLineGetGlyphCount(line.formattedLine!)
+                        let lineRect = CTLineGetBoundsWithOptions(line.formattedLine!, .excludeTypographicLeading)
                         let lineHeight = lineRect.size.width / CGFloat(glyphCount)
                         
-                        context.textPosition = CGPoint(x: xMargin, y: yMargin - CGFloat(i) * lineHeight)
-                        CTLineDraw(line, context)
+                        context.textPosition = CGPoint(x: xMargin, y: yMargin - CGFloat(line.lineNumber!) * lineHeight)
+                        CTLineDraw(line.formattedLine!, context)
                     }
                 }
             }
