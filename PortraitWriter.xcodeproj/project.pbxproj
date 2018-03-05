@@ -19,6 +19,7 @@
 		367513E52047964A00467DD2 /* Mystery.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E42047964A00467DD2 /* Mystery.txt */; };
 		367513E72048C77A00467DD2 /* Rose.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513E62048C77900467DD2 /* Rose.txt */; };
 		367513E9204AFB9B00467DD2 /* TypewriterLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367513E8204AFB9B00467DD2 /* TypewriterLine.swift */; };
+		367513EB204C071D00467DD2 /* Pope.txt in Resources */ = {isa = PBXBuildFile; fileRef = 367513EA204C071D00467DD2 /* Pope.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		367513E42047964A00467DD2 /* Mystery.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Mystery.txt; path = PortraitWriter/Mystery.txt; sourceTree = SOURCE_ROOT; };
 		367513E62048C77900467DD2 /* Rose.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Rose.txt; path = PortraitWriter/Rose.txt; sourceTree = SOURCE_ROOT; };
 		367513E8204AFB9B00467DD2 /* TypewriterLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypewriterLine.swift; sourceTree = "<group>"; };
+		367513EA204C071D00467DD2 /* Pope.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Pope.txt; path = PortraitWriter/Pope.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 				367513E02045DC6C00467DD2 /* Charles.txt */,
 				367513E42047964A00467DD2 /* Mystery.txt */,
 				367513E62048C77900467DD2 /* Rose.txt */,
+				367513EA204C071D00467DD2 /* Pope.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				367513E72048C77A00467DD2 /* Rose.txt in Resources */,
 				36693ABF2044D72000A12B58 /* Assets.xcassets in Resources */,
+				367513EB204C071D00467DD2 /* Pope.txt in Resources */,
 				36693AC22044D72000A12B58 /* Main.storyboard in Resources */,
 				367513E52047964A00467DD2 /* Mystery.txt in Resources */,
 				367513E12045DC6C00467DD2 /* Charles.txt in Resources */,

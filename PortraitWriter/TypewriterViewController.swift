@@ -32,10 +32,42 @@ class TypewriterViewController: NSViewController {
             } else if line.text == "BLACK" {
                 colour = .black
             } else {
-                let string = NSAttributedString.init(string: line.text + "\n", attributes:[.font : font!, .foregroundColor: colour])
-                line.formattedLine = CTLineCreateWithAttributedString(string)
+                
+                var text = line.text
+                let formattedText = NSMutableAttributedString()
+                
+                while text.count > 0 {
+                
+                    let startIndex = text.range(of: "\\")
+                    
+                    if startIndex == nil {
+                        formattedText.append(NSAttributedString(string: text + "\n", attributes:[.font : font!, .foregroundColor: colour]))
+                        text = ""
+                    } else {
+                        let endIndex = text.range(of: ")")
+                        let range = startIndex!.lowerBound..<endIndex!.upperBound
+                        
+                        formattedText.append(NSAttributedString(string: String(text[text.startIndex..<startIndex!.lowerBound]), attributes:[.font : font!, .foregroundColor: colour]))
+                        var escapeSequence = String(text[range])
+                        escapeSequence = escapeSequence.replacingOccurrences(of: "\\(", with: "")
+                        escapeSequence = escapeSequence.replacingOccurrences(of: ")", with: "")
+                        
+                        if escapeSequence == "RED" {
+                            colour = .red
+                        } else if escapeSequence == "BLACK" {
+                            colour = .black
+                        }
+                        
+                        text.removeSubrange(text.startIndex..<endIndex!.upperBound)
+                    }
+                }
+
+                line.formattedLine = CTLineCreateWithAttributedString(formattedText)
+
+                
+//                let string = NSAttributedString.init(string: line.text + "\n", attributes:[.font : font!, .foregroundColor: colour])
+//                line.formattedLine = CTLineCreateWithAttributedString(string)
             }
-            
         }
         
         typeView.lines = lines

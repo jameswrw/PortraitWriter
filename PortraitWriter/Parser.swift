@@ -17,7 +17,8 @@ class Parser {
     init() {
 //        path = Bundle.main.url(forResource: "Charles", withExtension: "txt")!
 //        path = Bundle.main.url(forResource: "Mystery", withExtension: "txt")!
-        path = Bundle.main.url(forResource: "Rose", withExtension: "txt")!
+//        path = Bundle.main.url(forResource: "Rose", withExtension: "txt")!
+        path = Bundle.main.url(forResource: "Pope", withExtension: "txt")!
     }
     
     func parse() -> [TypewriterLine] {
@@ -75,14 +76,24 @@ class Parser {
 
             for component in components {
                 let results = matches(for: regexPattern, in: String(component))
-                let repeatCount = Int(results[0])!
                 
-                for _ in 0..<repeatCount {
-                    if results[1] == "sp" {
-                        parsedLine += " "
-                    } else {
-                        assert(results[1].count == 1)
-                        parsedLine += results[1]
+                if results[0] == "" {
+                    switch results[1] {
+                    case "RED", "BLACK":
+                        parsedLine += "\\(" + results[1] + ")"
+                    default: ()
+                        fatalError("Unexpected input")
+                    }
+                } else {
+                    let repeatCount = Int(results[0])!
+                    
+                    for _ in 0..<repeatCount {
+                        if results[1] == "sp" {
+                            parsedLine += " "
+                        } else {
+                            assert(results[1].count == 1)
+                            parsedLine += results[1]
+                        }
                     }
                 }
             }
